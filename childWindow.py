@@ -19,3 +19,7 @@ windowsOpen = driver.window_handles
 
 driver.switch_to.window(windowsOpen[1])
 print(driver.find_element(By.TAG_NAME, "h3").text)
+driver.close()  # will close current window, not whole firefox
+driver.switch_to.window(windowsOpen[0])
+assert "Opening a new window" == driver.find_element(By.TAG_NAME, "h3").text
+
