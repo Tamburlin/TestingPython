@@ -14,3 +14,6 @@ def test_firstProgram():
 
 def test_secondProgramCreditCard():
     print("Bad day to you")
+
+def test_crossBrowser(crossBrowser):
+    print(crossBrowser)

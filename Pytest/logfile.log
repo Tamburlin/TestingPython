@@ -1,0 +1,9 @@
+2023-04-24 15:06:26,390 :INFO :Pytest.test_logging :Information statement
+2023-04-24 15:06:26,390 :WARNING :Pytest.test_logging :Something is in warning mode
+2023-04-24 15:06:26,390 :ERROR :Pytest.test_logging :A major error
+2023-04-24 15:06:26,391 :CRITICAL :Pytest.test_logging :Critical issue
+2023-04-24 15:09:56,636 :DEBUG :Pytest.test_logging :Debug statement is exeuted
+2023-04-24 15:09:56,637 :INFO :Pytest.test_logging :Information statement
+2023-04-24 15:09:56,637 :WARNING :Pytest.test_logging :Something is in warning mode
+2023-04-24 15:09:56,637 :ERROR :Pytest.test_logging :A major error
+2023-04-24 15:09:56,637 :CRITICAL :Pytest.test_logging :Critical issue
